@@ -19,7 +19,9 @@ class Characters extends Component {
 const wrapper = {
     width: '100%',
     display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center'
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'center'
 }
 export default Characters;

@@ -12,6 +12,7 @@ const Character = props => {
         <p className="characterInfo">Mass: {props.characterData.mass}</p>
         <p className="characterInfo">Height: {props.characterData.height}</p>
         <p className="characterInfo">Skin Color: {props.characterData.skin_color}</p>
+        
         </div>
         </div>
     );
